@@ -3,3 +3,4 @@ service vendor.thermal-hal-2-0-mock /vendor/bin/hw/android.hardware.thermal@2.0-
     class hal
     user system
     group system
+    writepid /dev/cpuset/system-background/tasks

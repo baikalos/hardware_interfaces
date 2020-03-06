@@ -3,3 +3,4 @@ service vendor.sensors-hal-2-0-mock /vendor/bin/hw/android.hardware.sensors@2.0-
     user system
     group system
     rlimit rtprio 10 10
+    writepid /dev/cpuset/system-background/tasks

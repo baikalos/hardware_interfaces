@@ -7,3 +7,4 @@ service vendor.input.classifier-1-0 /vendor/bin/hw/android.hardware.input.classi
     oneshot
     # will only be started when requested
     disabled
+    writepid /dev/cpuset/system-background/tasks

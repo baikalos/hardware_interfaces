@@ -2,3 +2,4 @@ service vendor.configstore-hal /vendor/bin/hw/android.hardware.configstore@1.1-s
     class hal animation
     user system
     group system
+    writepid /dev/cpuset/system-background/tasks

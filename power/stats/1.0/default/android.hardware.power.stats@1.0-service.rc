@@ -3,3 +3,4 @@ service vendor.power.stats-hal-1-0-mock /vendor/bin/hw/android.hardware.power.st
     class hal
     user system
     group system
+    writepid /dev/cpuset/system-background/tasks
